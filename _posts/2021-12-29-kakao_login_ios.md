@@ -3,9 +3,6 @@ title: iOS + Kakao login 사용하기
 date: 2021-07-28 19:39:00
 tags: xcode swift ios study kakaosdk kakaologin
 ---
-
-# Kakao social login
-
 [Kakao Developers](https://developers.kakao.com/docs/latest/ko/kakaologin/ios)
 
 카카오 로그인은 사용자를 인증하고 토큰을 발급하는 기능이다.
