@@ -1,6 +1,6 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
+title: Daye's blog
+description: 'dy-yb blog'
 url: 'https://dy-yb.github.io'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
@@ -8,12 +8,12 @@ baseurl: '/'
 # disable_landing_page: true
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Daye Yoon'
+  email: daye.elin.yoon@gmail.com
+  twitter_username:
+  facebook_username:
+  github_username:
+  linkedin_username:
 
 defaults:
   -
