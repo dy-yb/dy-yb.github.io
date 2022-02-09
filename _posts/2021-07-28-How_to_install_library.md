@@ -4,8 +4,6 @@ date: 2021-07-28 19:39:00
 tags: xcode swift ios study cocoapods
 ---
 
--
-
 1. **Xcode에서 추가**
     1. File -> Swift Packages -> Add Package Dependency 를 클릭 → git url 복사 → 끝
 
