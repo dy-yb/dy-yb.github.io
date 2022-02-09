@@ -4,10 +4,6 @@ date: 2022-02-08 09:10:00
 tags: xcode swift ios study UITableView
 ---
 
--
-
-## TableView의 높이를 동적으로 조절하기
-
 - TableView의 rowHeight 속성에 AutometicDimension을 설정하여 Table 세로 길이가 유동적으로 변한 다는 것을 선언해줘야 함
 
 ```swift
