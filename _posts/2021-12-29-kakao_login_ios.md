@@ -4,8 +4,6 @@ date: 2021-07-28 19:39:00
 tags: xcode swift ios study kakaosdk kakaologin
 ---
 
--
-
 # Kakao social login
 
 [Kakao Developers](https://developers.kakao.com/docs/latest/ko/kakaologin/ios)
