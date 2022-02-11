@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dy-yb.github.io/sitemap.xml
