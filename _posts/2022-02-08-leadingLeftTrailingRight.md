@@ -1,5 +1,5 @@
 ---
-title: AutoLayout에서 leading/left, trailing/right의 차이
+title: AutoLayout에서 leading-left, trailing-right의 차이
 date: 2022-02-08 12:10:00
 tags: xcode swift ios study
 ---
