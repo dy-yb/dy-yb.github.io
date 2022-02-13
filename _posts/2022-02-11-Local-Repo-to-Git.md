@@ -6,7 +6,7 @@ tags: github mac git study
 
 (macOS 기준 입니다.)
 
-## 로컬 저장소에 있는 프로젝트를 Git 원격 저장소로 연결하는 법
+### 로컬 저장소에 있는 프로젝트를 Git 원격 저장소로 연결하는 법
 
 1. 로컬 저장소에 프로젝트를 생성후 해당 경로로 진입
 2. git 초기화
@@ -55,7 +55,7 @@ error: failed to push some refs to 'https://github.com/dy-yb/json_Example.git'
 ### src refspec main does not match any 에러 해결 방법
 
 1. 초기화를 위해 기존 .git file 삭제
-2. git 초기화
+2. git 초기화 (git init)
 3. 현재까지 상태 commit
     
     ```bash
@@ -66,6 +66,7 @@ error: failed to push some refs to 'https://github.com/dy-yb/json_Example.git'
 - 참고한 글에서는 이 단계까지 수행하면 git cofig를 통해 git name과 이메일을 입력하라고 메세지가 뜬다고하는데 나는 아무런 말도 없었다.. 하지만 직접 하면되니 걱정말자..!
 1. git config
     - github username과 github에 연결 된 이메일을 입력하면 된다.
+    - (2022.02.13일 기준) 오늘 다시 시도해 보았는데 해당 과정을 생략해도 문제없이 진행되는 것을 확인했다. 생략하고 진행했는데 만약 동일 에러가 나타나면 다시 처음 부터 수행하되, 이 과정을 포함하면 될 것 같다!
     
     ```bash
     git config user.name "username"
