@@ -4,3 +4,5 @@ gem 'github-pages', group: :jekyll_plugins
 gem "jekyll", "~> 3.9"
 
 gem "webrick", "~> 1.7"
+
+gem "jekyll-sitemap"
