@@ -1,5 +1,5 @@
 ---
-title: Github repository 연결(+ push error)
+title: Github repository 연결
 date: 2022-02-11 14:50:00
 tags: github mac git study
 ---
