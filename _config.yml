@@ -39,6 +39,7 @@ kramdown:
   input: GFM
   # do not replace newlines by <br>s
   hard_wrap: false
-
+  
+timezone: Asia/Seoul
 plugins: ['jekyll-paginate', 'jekyll-sitemap', 'jekyll-feed']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
