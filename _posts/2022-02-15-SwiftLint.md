@@ -9,7 +9,7 @@ tags: xcode swift ios study lint
 
 - Control Statement Violation: `if`, `for`, `guard`, `switch`, `while`, and `catch` statements shouldn't unnecessarily wrap their conditionals or arguments in parentheses. (control_statement)
     - if, for, guard, switch, while, catch 구문에서 조건문을 소괄호로 묶지 않아도 됩니다.
-    - 
+
 - For Where Violation: `where` clauses are preferred over a single `if` inside a `for`. (for_where)
     - for 문 안에서 if 문으로 조건 확인을 하는 경우에는 for문 내에 where 구문 사용을 권장합니다.
 
