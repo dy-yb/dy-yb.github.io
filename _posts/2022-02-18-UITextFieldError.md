@@ -1,6 +1,6 @@
 ---
 title: Can not find keyplane that supports type 4 for keyboard error
-date: 2022-02-18 12:00:00
+date: 2022-02-18 18:30:00
 tags: study swift simulator iOS UITextField
 ---
 
