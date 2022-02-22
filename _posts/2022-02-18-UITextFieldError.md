@@ -1,6 +1,6 @@
 ---
-title: Can't find keyplane that supports type 4 for keyboard error
-date: 2022-02-18 12:00:00
+title: Can not find keyplane that supports type 4 for keyboard error
+date: 2022-02-18 18:30:00
 tags: study swift simulator iOS UITextField
 ---
 
@@ -11,7 +11,7 @@ Can't find keyplane that supports type 4 for keyboard iPhone-PortraitTruffle-
 NumberPad; using 27071_PortraitTruffle_iPhone-Simple-Pad_Default
 ```
 
-이유는 내가 사용하고있는 시뮬레이터에 아직 해당 키보드가 연결되어있지 않아서 나타나는 듯 하다.
+이 에러가 키패드가 나타나지 않는 원인은 아닌 것 같고 해결방법은 아래와 같다고 한다. (에러는 무시해도 무관하다)
 
 ### 해결 방법
 

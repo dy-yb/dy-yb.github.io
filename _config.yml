@@ -3,6 +3,7 @@ title: Daye's blog
 description: 'iOS/Swift'
 url: 'https://dy-yb.github.io'
 baseurl: '/'
+timezone: Asia/Seoul
 google_analytics: 'G-XPJ1VZCB4D'
 # disqus_shortname: 'your-disqus-name'
 # disable_landing_page: true
@@ -40,6 +41,5 @@ kramdown:
   # do not replace newlines by <br>s
   hard_wrap: false
   
-timezone: Asia/Seoul
 plugins: ['jekyll-paginate', 'jekyll-sitemap', 'jekyll-feed']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
