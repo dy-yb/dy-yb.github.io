@@ -109,9 +109,9 @@ let result: Double = 3.14524
 result = round(result * 100) / 100
 
 if result.truncatingRemainder(dividingBy: 1) != 0 {
-      resultTextField.text = String(format: "%.2f", resultQuantity)
+      resultTextField.text = String(format: "%.2f", result)
     } else {
-      resultTextField.text = String(Int(resultQuantity))
+      resultTextField.text = String(Int(result))
     }
 ```
 
