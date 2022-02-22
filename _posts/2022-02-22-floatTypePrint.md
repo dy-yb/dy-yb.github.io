@@ -1,6 +1,6 @@
 ---
 title: 실수형 변수 소수점 처리하기
-date: 2022-02-22 13:10:00
+date: 2022-02-21 13:10:00
 tags: swift study truncatingRemainder
 ---
 
