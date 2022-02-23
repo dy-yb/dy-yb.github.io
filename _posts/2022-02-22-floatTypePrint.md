@@ -1,6 +1,6 @@
 ---
 title: 실수형 변수 소수점 처리하기
-date: 2022-02-22 13:10:00
+date: 2022-02-21 13:10:00
 tags: swift study truncatingRemainder
 ---
 
@@ -109,9 +109,9 @@ let result: Double = 3.14524
 result = round(result * 100) / 100
 
 if result.truncatingRemainder(dividingBy: 1) != 0 {
-      resultTextField.text = String(format: "%.2f", resultQuantity)
+      resultTextField.text = String(format: "%.2f", result)
     } else {
-      resultTextField.text = String(Int(resultQuantity))
+      resultTextField.text = String(Int(result))
     }
 ```
 
