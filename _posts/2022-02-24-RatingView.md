@@ -1,6 +1,6 @@
 ---
 title: 별점 입력 뷰 구현
-date: 2022-02-24 12:10:00
+date: 2022-02-24 14:40:00 +0900
 tags: swift study UIStackView UISlider
 ---
 
