@@ -3,7 +3,12 @@ title: Swift Lint Rule 정리
 date: 2022-02-15 23:10:00
 tags: xcode swift ios study lint
 ---
-(나올 때마다 계속해서 추가할 예정)
+
+Lint라는 것.. 사용해보니 굉장히 예민하고도 예민한 놈이었다.
+하지만 나는 아직은 Swift에서 추구하는 코드 스타일이 어떤 건지 익히는 단계에 있다고 생각해서 무작정 해제 시키는 것을 지양하고
+그들이 불편~하게 느끼는 걸 찾아보고 정리해 두었다가 차차 방해가 되는 것을 지워나가면 좋겠다고 생각해 기록하기로 했다!
+
+(나올 때마다 계속해서 추가할 예정 - Updated on 2022.02.26)
 
 ### Recommand
 
@@ -71,7 +76,36 @@ tags: xcode swift ios study lint
 - Type Body Length Violation: Type body should span 200 lines or less excluding comments and whitespace: currently spans 237 lines (type_body_length)
     - 타입의 바디 길이는 주석을 제외하고 200라인 이하를 권장합니다: 현재는 237라인입니다.
 
+- Nesting Violation: Types should be nested at most 1 level deep (nesting)
+    - (번역을 통해 추측하였음)
+    - nested class 라는 뜻이 클래스 내부에 존재하는 클래스 라는 것을 지칭 한다는 것으로 보아 타입을 정의할때는 어떤 것에 속하지 않고 가장 윗 단에 있어야 한다는 뜻인 것 같았고,
+    - 실제로도 최상위 레벨에 정의를 하니 lint가 만족했는지 조용해졌다^^.
+    
+    ```swift
+    // 예를 들어서 이 상태에서는 린트 레이더망에 걸리게 됨
+    class TestClass {
+    	...
+    	enum Number { // Nest violation!!
+    		case one
+    		case two
+    	}
+    	...
+    }
+    
+    // 수정이랄 것도 없고 분리 시켜버리면 된다~!
+    enum Number { // Nest violation!!
+    	case one
+    	case two
+    }
+    
+    class TestClass {
+    	...
+    }
+    ```
+
 
 ### Deny
 
 - dentifier Name Violation: Variable name should be between 3 and 40 characters long: 'i'
+- Type Name Violation: Type name should start with an uppercase character: 'exchangerTextFieldTag' (type_name)
+    - Type name의 첫 글자는 반드시 대문자를 써야합니다.
