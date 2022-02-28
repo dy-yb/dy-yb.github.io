@@ -12,7 +12,7 @@ tags: swift study xcode
 
 이런 오류가 나타나면서 계~~속 빌드가 실패했다. 최근에 애플워치를 연동하면서 설정이 뭔가 꼬이게 된 것이라 추측 되었고,, 해당 에러로 검색을 해보니 이미 꽤나 많은 사람들이 애를 먹었나 보더라,, (무려 19k view!)
 
-[Apple Developer Forums](https://developer.apple.com/forums/thread/691452?page=3)
+[Apple Developer Forums 링크](https://developer.apple.com/forums/thread/691452?page=3)
 
 그런데 해결방법 상태가..😂
 
