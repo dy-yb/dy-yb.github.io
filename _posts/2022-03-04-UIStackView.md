@@ -13,7 +13,7 @@ tags: swift study UIStackView stackview
 - **Axis(축)**
     - 스택 뷰의 축의 방향에 따라 뷰를 배열한다.
     
-    ![스크린샷 2022-03-04 22.46.07.png](UIStackVie%2074754/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-03-04_22.46.07.png)
+    ![스크린샷_2022-03-04_22 46 07](https://user-images.githubusercontent.com/40792935/156783888-39cd1668-623e-476c-acdf-621fd820304d.png)
     
     - Vertical: 탑을 쌓듯이 위에서 아래로
     - Horizontal: 책꽂이 처럼 왼쪽에서 오른쪽으로
