@@ -108,3 +108,8 @@ tags: swift study UIStackView stackview
             ![Untitled 5](https://user-images.githubusercontent.com/40792935/156782796-2829c541-1dda-4334-8437-87d720bb5dc4.png)
                 
             - 가로축을 가진 스택뷰에서만 사용 가능
+
+
+
+### Reference
+https://hyunndyblog.tistory.com/148
