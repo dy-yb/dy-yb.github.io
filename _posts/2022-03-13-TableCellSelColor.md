@@ -11,11 +11,11 @@ tags: study ios
 코드 한줄로 가능한.. 아주 간단!
 
 ```swift
-func tableView(_ tableView: UITableView, **cellForRowAt** indexPath: IndexPath) -> UITableViewCell {
+func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     guard let cell = tableView.dequeueReusableCell(withIdentifier: viewController.cellID, for: indexPath) as? cell else {
       return .init()
     }
-    **cell.selectionStyle = .none**
+    cell.selectionStyle = .none
     return cell
   }
 ```
