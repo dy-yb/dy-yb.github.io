@@ -1,6 +1,6 @@
 ---
 title: UITableView Cell 선택시 배경 색 변경 없게 설정하기
-date: 2022-03-13 14:32:00
+date: 2022-03-13 14:32:00 +09:00
 tags: study ios 
 ---
 
