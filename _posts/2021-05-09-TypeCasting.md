@@ -2,6 +2,7 @@
 title: Type Casting
 date: 2021-05-09 20:08:00
 tags: apple_docs swift
+categories: [ iOS ]
 ---
 
 - [Apple Swift Documentation](https://docs.swift.org/swift-book/LanguageGuide/TypeCasting.html) 번역
