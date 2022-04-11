@@ -1,13 +1,6 @@
 ---
 layout: default
 ---
-<script src="https://utteranc.es/client.js"
-        repo="dy-yb/dy-yb.github.io"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
 
 <article class="post-container post-container--single">
   <header class="post-header">
@@ -23,6 +16,13 @@ layout: default
   <section class="post">
     {{ content }}
   </section>
+        <script src="https://utteranc.es/client.js"
+        repo="dy-yb/dy-yb.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+        </script>
   {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
 </article>
 {% if page.comments != false %}{% include disqus.html %}{% endif %}

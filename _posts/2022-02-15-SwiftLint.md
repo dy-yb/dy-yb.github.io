@@ -8,7 +8,7 @@ Lint라는 것.. 사용해보니 굉장히 예민하고도 예민한 놈이었�
 하지만 나는 아직은 Swift에서 추구하는 코드 스타일이 어떤 건지 익히는 단계에 있다고 생각해서 무작정 해제 시키는 것을 지양하고
 그들이 불편~하게 느끼는 걸 찾아보고 정리해 두었다가 차차 방해가 되는 것을 지워나가면 좋겠다고 생각해 기록하기로 했다!
 
-(나올 때마다 계속해서 추가할 예정 - Updated on 2022.02.26)
+(나올 때마다 계속해서 추가할 예정 - Updated on 2022.03.23)
 
 ### Recommand
 
@@ -101,6 +101,43 @@ Lint라는 것.. 사용해보니 굉장히 예민하고도 예민한 놈이었�
     class TestClass {
     	...
     }
+    ```
+    
+- Self in Property Initialization Violation: `self` refers to the unapplied `NSObject.self()` method, which is likely not expected. Make the variable `lazy` to be able to refer to the current instance or use `ClassName.self`. (self_in_property_initialization)
+    - self를 사용할 때는 lazy 변수를 사용하거나 `ClassName.self` 를 사용하십시오.
+    
+    ```swift
+    // lazy가 아닌 let, var 변수에서는 에러!
+    class View: UIView {
+        let button: UIButton = {
+            let button = UIButton()
+            button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside) // 여기~~
+            return button
+        }()
+    }
+    
+    //lazy를 붙여줌
+    class View: UIView {
+        lazy var button: UIButton = {
+            let button = UIButton()
+            button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
+            return button
+        }()
+    }
+    ```
+    
+    - lazy란?
+        - 지연 저장 프로퍼티로 인스턴스가 초기화 되는 시점이 아니라 속성에 처음 접근하는 시점에 초기화 하도록 함
+        
+- Unused Closure Parameter Violation: Unused parameter "error" in a closure should be replaced with _. (unused_closure_parameter)
+    - 사용하지 않는 클로저 파라미터의 경우 `_`으로 바꿔서 작성하는게 좋습니다.
+
+- No Space in Method Call Violation: Don't add a space between the method name and the parentheses. (no_space_in_method_call)
+    - 메소드 이름과 괄호 `()` 사이에는 공백이 있으면 안됩니다.
+    
+    ```swift
+    configure () // X
+    configure() // O
     ```
 
 
