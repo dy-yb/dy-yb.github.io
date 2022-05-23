@@ -2,6 +2,7 @@
 title: Clean Swift(VIP)의 장점 및 타 아키텍쳐의 한계점
 date: 2021-07-19 15:52:00
 tags: swift study vip architecture
+categories: [ iOS ]
 ---
 
 [https://clean-swift.com/handbook/](https://clean-swift.com/handbook/) 의 번역입니다. 의역/오역이 있을 수 있습니다. 임의로 생략한 내용이 있습니다.

@@ -2,6 +2,7 @@
 title: MVVM Data Binding
 date: 2022-02-17 13:23:00
 tags: mvvm study swift observable binding
+categories: [ iOS ]
 ---
 
 

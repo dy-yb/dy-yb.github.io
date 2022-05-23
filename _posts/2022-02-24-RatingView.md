@@ -2,6 +2,7 @@
 title: 별점 입력 뷰 구현
 date: 2022-02-24 14:40:00 +0900
 tags: swift study UIStackView UISlider
+categories: [ iOS ]
 ---
 
 UIStackView와 UISlider를 별점을 입력하는 뷰를 구현하였다.

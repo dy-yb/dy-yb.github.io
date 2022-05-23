@@ -2,6 +2,7 @@
 title: Can not find keyplane that supports type 4 for keyboard error
 date: 2022-02-18 18:30:00
 tags: study swift simulator iOS UITextField
+categories: [ iOS ]
 ---
 
 UITextField keyboard type을 numberpad로 변경하고 빌드했더니 다음 에러가 떴다.

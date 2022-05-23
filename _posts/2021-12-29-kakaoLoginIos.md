@@ -2,6 +2,7 @@
 title: iOS + Kakao login 사용하기
 date: 2021-07-28 19:39:00
 tags: xcode swift ios study kakaosdk kakaologin
+categories: [ iOS ]
 ---
 [Kakao Developers](https://developers.kakao.com/docs/latest/ko/kakaologin/ios)
 

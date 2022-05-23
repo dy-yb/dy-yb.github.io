@@ -2,6 +2,7 @@
 title: Swift Lint Rule 정리
 date: 2022-02-15 23:10:00
 tags: xcode swift ios study lint
+categories: [ iOS ]
 ---
 
 Lint라는 것.. 사용해보니 굉장히 예민하고도 예민한 놈이었다.

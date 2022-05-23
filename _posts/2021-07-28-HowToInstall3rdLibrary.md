@@ -2,6 +2,7 @@
 title: 3rd-party library 추가하기
 date: 2021-07-28 19:39:00
 tags: xcode swift ios study cocoapods
+categories: [ iOS ]
 ---
 
 1. **Xcode에서 추가**

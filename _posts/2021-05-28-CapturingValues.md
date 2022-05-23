@@ -2,6 +2,7 @@
 title: Capturing Values
 date: 2021-05-28 21:33:00
 tags: apple_docs swift
+categories: [ iOS ]
 ---
 
 - [Apple Swift Documentation](https://docs.swift.org/swift-book/LanguageGuide/Closures.html#ID103) 번역본

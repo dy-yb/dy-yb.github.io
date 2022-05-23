@@ -2,6 +2,7 @@
 title: Jekyll Time zone setting
 date: 2022-02-16 13:03:00
 tags: gitblog study jekyll
+categories: [ etc ]
 ---
 
 gitblog 테마를 변경하고 난 이후로 정상적으로 빌드 되었음에도 불구하고 실제 블로그에는 나타나지 않았다. 

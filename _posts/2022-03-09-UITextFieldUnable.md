@@ -2,6 +2,7 @@
 title: TextField 입력제한
 date: 2022-03-09 22:00:00 +0900
 tags: swift study Firebase Database Storage
+categories: [ iOS ]
 ---
 
 ### UITextField 입력 불가 상태로 변환 + 투명 커서 전환 코드

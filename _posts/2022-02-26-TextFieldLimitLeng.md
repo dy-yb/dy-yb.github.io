@@ -2,6 +2,7 @@
 title: UITextField 글자수 제한하기
 date: 2022-02-26 15:00:00 +0900
 tags: swift study UITextField
+categories: [ iOS ]
 ---
 
 글자수를 제한하기 위해서는 우선 UITextFieldDelegate를 채택해야 한다. 

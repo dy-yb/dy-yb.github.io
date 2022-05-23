@@ -2,6 +2,7 @@
 title: Design Pattern
 date: 2021-06-03 19:59:00
 tags: study swift iOS
+categories: [ iOS ]
 ---
 
 ## 왜 아키텍처를 고려해야 할까?

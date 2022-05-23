@@ -2,6 +2,7 @@
 title: tint color와 text color
 date: 2022-04-04 23:30:00 +09:00
 tags: study ios uiview tintcolor
+categories: [ iOS ]
 ---
 
 버튼의 글씨 색상을 변경하는 방법들을 찾아보던 중에 tintColor, textColor 두 속성의 차이점이 궁금해져 찾아보게 되었다.. 두 속성 모두 UIButton에만 국한되지 않고 다른 ui에서도 자주 만날 수 있었기 때문에..!

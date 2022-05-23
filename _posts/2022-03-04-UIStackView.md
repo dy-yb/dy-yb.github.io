@@ -2,6 +2,7 @@
 title: UIStackView
 date: 2022-03-04 23:00:00 +0900
 tags: swift study UIStackView stackview
+categories: [ iOS ]
 ---
 
 ### UIStackView란?

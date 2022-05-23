@@ -2,6 +2,7 @@
 title: Could not insert new outlet connection error
 date: 2022-03-10 11:20:00 +0900
 tags: swift study storyboard error
+categories: [ iOS ]
 ---
 
 

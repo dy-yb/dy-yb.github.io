@@ -2,6 +2,7 @@
 title: UIButton에 텍스트랑 이미지 둘 다 넣기
 date: 2021-12-23 14:20:00
 tags: xcode swift ios study cocoapods
+categories: [ iOS ]
 ---
 
 ```swift

@@ -2,6 +2,7 @@
 title: UITableView Cell 선택시 배경 색 변경 없게 설정하기
 date: 2022-03-13 14:32:00 +09:00
 tags: study ios 
+categories: [ iOS ]
 ---
 
 기본적으로 테이블 뷰는 선택된 셀의 배경 색을 회색으로 변경한다. 이 것을 없애보자~~

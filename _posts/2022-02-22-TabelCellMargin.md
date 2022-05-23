@@ -2,6 +2,7 @@
 title: UITableViewCell 의 간격 조정과 둥근 테두리 효과 적용
 date: 2022-02-23 13:10:00
 tags: swift study UITabelView UITableViewCell
+categories: [ iOS ]
 ---
 
 - 코드

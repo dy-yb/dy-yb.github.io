@@ -2,6 +2,7 @@
 title: 실수형 변수 소수점 처리하기
 date: 2022-02-21 13:10:00
 tags: swift study truncatingRemainder
+categories: [ iOS ]
 ---
 
 일단 나는 Double형 변수를 String으로 변환하여 UITextField에 표시하는 것이 목적이었다.

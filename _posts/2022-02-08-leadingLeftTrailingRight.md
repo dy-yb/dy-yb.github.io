@@ -2,6 +2,7 @@
 title: AutoLayout에서 leading-left, trailing-right의 차이
 date: 2022-02-08 12:10:00
 tags: xcode swift ios study
+categories: [ iOS ]
 ---
 
 - leading, trailing: 글자가 시작 점 기준
