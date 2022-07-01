@@ -16,7 +16,7 @@ ImageView를 가진 CollectionView를 만들 던 중에 Cell이 재사용 되면
 
 ### PrepareForReuse()
 
-해당 문제는 셀이 재사용 될 때 이전 데이터도 함께 재사용 하기 때문에 발생되게 되는데, 이 때 이러한 문제를 해결 할 수 있는 것이 `CollectionViewCell`의 `prepareForReuse()` 함수 입니다. `TableView`에서도 활용 할 수 있습니다.
+해당 문제는 셀이 재사용 될 때 이전 데이터도 함께 재사용 하기 때문에 발생되게 되는데, 이 때 이러한 문제를 해결 할 수 있는 것이 `CollectionViewCell`의 `prepareForReuse()` 메소드 입니다. `TableView`에서도 활용 할 수 있습니다.
 
 ![Untitled](https://user-images.githubusercontent.com/40792935/176822130-5020b743-0584-418c-8c2a-25e9f9f136be.png)
 
