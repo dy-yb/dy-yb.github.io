@@ -1,9 +1,10 @@
 ---
 title: UICollectionViewCell 재사용 시 데이터 중첩 문제 해결방법
-date: 2022-07–01 10:10:00 +09:00
+date: 2022-06–30 10:10:00 +09:00
 tags: iOS swift study collectionView
 categories: [ iOS ]
 ---
+
 # collection view cell 재사용 중복
 
 ImageView를 가진 CollectionView를 만들 던 중에 Cell이 재사용 되면서 발생하는 듯한 문제가 나타났습니다.
