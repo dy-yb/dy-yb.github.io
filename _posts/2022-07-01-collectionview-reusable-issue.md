@@ -1,6 +1,6 @@
 ---
 title: UICollectionViewCell 재사용 시 데이터 중첩 문제 해결방법
-date: 2022-07–01 13:10:00 +09:00
+date: 2022-07–01 10:10:00 +09:00
 tags: iOS swift study collectionView
 categories: [ iOS ]
 ---
