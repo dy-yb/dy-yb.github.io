@@ -5,8 +5,6 @@ tags: iOS swift study collectionView
 categories: [ iOS ]
 ---
 
-# collection view cell 재사용 중복
-
 ImageView를 가진 CollectionView를 만들 던 중에 Cell이 재사용 되면서 발생하는 듯한 문제가 나타났습니다.
 
 빌드 후 시뮬레이터에서 CollectionView를 스크롤하여 아래로 내리다 보면(특히 빠른 속도로 스크롤 하는 경우),  해당 셀에 맞는 데이터가 아닌 이전 셀의 데이터가 중첩되어 나타났습니다.

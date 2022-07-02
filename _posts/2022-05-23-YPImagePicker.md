@@ -5,8 +5,6 @@ tags: iOS swift study YPImagePicker library
 categories: [ iOS ]
 ---
 
-# YPImagePicker
-
 ## 설치
 
 CocoaPods를 사용하여 라이브러리를 프로젝트에 추가합니다.
