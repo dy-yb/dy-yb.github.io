@@ -1,7 +1,7 @@
 ---
-title: UILabel에 더보기 붙이기
+title: UILabel text에 더보기 붙이기
 date: 2022-06-26 22:10:00 +09:00
-tags: iOS swift study library
+tags: iOS swift study label
 categories: [ iOS ]
 ---
 
