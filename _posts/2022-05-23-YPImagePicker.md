@@ -32,7 +32,8 @@ end
 - 카메라, 갤러리 접근 권한 요청 시 나타날 문구 설정(설정 하지 않으면 추후 앱 심사시 통과되지 않을 수 있음)
     - `info.plist` 에 `Privacy - Photo Library UsageDescription` (갤러리 접근 이유), `Privacy - Camera Usage Description` (카메라 접근 이유) 속성을 추가하고 원하는 문구를 작성해줍니다.
     
-    ![스크린샷 2022-05-19 14.49.12.png](YPImagePicker%20bfd60b282f4944868ed3b8278453c764/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-05-19_14.49.12.png)
+    ![스크린샷 2022-05-19 14 49 12](https://user-images.githubusercontent.com/40792935/177807710-e22bdece-324b-45c1-9329-30ebb5678f0e.png)
+
     
 - YPImagePicker 호출
     - 더 다양한 상황, 기능 별 샘플 코드는 [YPImagePicker github](https://github.com/Yummypets/YPImagePicker#configuration)에서 확인할 수 있습니다.
