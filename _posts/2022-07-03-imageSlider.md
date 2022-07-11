@@ -1,5 +1,5 @@
 ---
-title: pagecontrol과 scrollview를 이용하여 이미지 슬라이드 만들기
+title: Pagecontrol과 Scrollview를 이용하여 이미지 슬라이드 만들기
 date: 2022-07-03 20:10:00 +09:00
 tags: iOS swift study pagecontrol
 categories: [ iOS ]
