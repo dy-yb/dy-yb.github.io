@@ -1,6 +1,6 @@
 ---
 title: UISearchController SearchBar 취소 버튼 커스텀하기
-date: 2022-09-01 22:30:01 +09:00
+date: 2022-09-01 12:30:01 +09:00
 tags: iOS swift study searchbar searchController
 categories: [ iOS ]
 ---
