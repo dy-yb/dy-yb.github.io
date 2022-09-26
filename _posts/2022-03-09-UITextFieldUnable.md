@@ -5,7 +5,7 @@ tags: swift study Firebase Database Storage
 categories: [ iOS ]
 ---
 
-### UITextField 입력 불가 상태로 변환 + 투명 커서 전환 코드
+UITextField 입력 불가 상태로 변환하고, 커서색상을 투명하게 전환하는 코드
 
 ```swift
 private lazy var resultUnitsTextField: UITextField = {
