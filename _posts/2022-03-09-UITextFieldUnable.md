@@ -11,6 +11,7 @@ UITextField 입력 불가 상태로 변환하고, 커서색상을 투명하게 �
 private lazy var resultUnitsTextField: UITextField = {
     let textField = UITextField()
     textField.tintColor = .clear // 커서 색상 투명으로 변경
+    textField.delegate = self
     return textField
   }()
 
