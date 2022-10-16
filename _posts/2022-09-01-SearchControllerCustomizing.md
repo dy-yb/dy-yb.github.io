@@ -4,7 +4,8 @@ date: 2022-09-01 12:30:01 +09:00
 tags: iOS swift study searchbar searchController
 categories: [ iOS ]
 ---
-UISearchController를 사용하면 Search Bar를 클릭했을 때 Cancel 버튼이 활성화 된다. 버튼의 색상과 내용을 변경해보자~!
+UISearchController를 사용하면 Search Bar를 클릭했을 때 Cancel 버튼이 활성화 된다. 
+해당 Cancel 버튼의 색상과 내용을 변경해보려고 한다.
 
 - Default ui
 
