@@ -5,7 +5,7 @@ tags: iOS swift study xcode template
 categories: [ iOS ]
 ---
 
-오랜만에 크리스마스 맞이(?) 블로그 글을 작성해봅니다,,
+오랜만에 크리스마스 맞이(?) 블로그 글을 작성해봅니다,,🎄
 
 프로젝트에서 VIPER 아키텍처를 채택하여 사용하고있는데, 화면 당 같은 구조의 코드를 가진 파일을 반복해서 생성해야 하는 수고가 있었다. Xcode의 파일 템플릿을 이용하면 이러한 반복작업을 줄일 수 있다고 하여 방법을 찾아 시도해 봤다!
 
@@ -133,6 +133,7 @@ extension ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_productName:identifier___V
 이렇게 ViewController 뿐만아니라 Interactor, Presenter, Worker, Router 등 프로젝트에서 기본적으로 사용하는 파일들에 대하여 템플릿을 생성하여, 필요한 파일들을 손쉽게 자동으로 생성할 수 있었다. 
 
 - 적용 화면
+
 <img width="417" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-12-25_21 21 41" src="https://user-images.githubusercontent.com/40792935/209468289-fdbde309-587c-46d5-8e74-cf067cabbf5c.png">
  
 <img width="731" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-12-25_21 24 21" src="https://user-images.githubusercontent.com/40792935/209468294-eaeafb2f-b8bb-41bc-9348-d58b1cd21858.png">
