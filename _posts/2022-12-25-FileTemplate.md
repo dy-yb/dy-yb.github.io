@@ -12,11 +12,9 @@ categories: [ iOS ]
 
 우선 한번쯤 사용해 봤을 Cocoa Touch Class 또한 template으로 만들어져 있는 것인데, 그 구조를 참고하여 수정하면 나만의 템플릿을 생성할 수 있다고 한다.
 
-기존 파일 템플릿이 어떠한 구조로 만들어져 있는지 참고하기 위해서는 다음 경로로 들어가면 된다.
+기존 파일 템플릿이 어떠한 구조로 만들어져 있는지 참고하기 위해서는 아래 경로로 들어가면 된다.
 
-```swift
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/File Templates/
-```
+`/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/File Templates/`
 
 (Finder를 통하여 찾고싶은 경우에는 패키지 내용보기로 접근할 수 있다.)
 
@@ -39,11 +37,9 @@ File Template 기본 구조는 다음과 같다.
 
 - .xctemplate 폴더 만들기
     
-    ```swift
     ~/Library/Developer/Xcode/Templates/AAAAA/BBBBB.xctemplate
-    ```
     
-    - ~/Library/Developer/Xcode/Templates/ 아래에 폴더를 생성하고, 해당 폴더 내에 .xctemplate을 생성하면된다.
+    - 위 경로 처럼 `~/Library/Developer/Xcode/Templates/` 아래에 폴더를 생성하고, 해당 폴더 내에 .xctemplate을 생성하면된다.
     - 이때 상위 폴더 이름(AAAAA)이 아래 사진처럼 파일 생성 인터페이스에서 헤더 부분으로 나타나게 됨!
         - ~/Library/Developer/Xcode/Templates/Custom\ Templates/KnockKnock-VIPER.xctemplate
         
