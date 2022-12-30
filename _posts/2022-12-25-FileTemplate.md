@@ -14,7 +14,7 @@ categories: [ iOS ]
 
 기존 파일 템플릿이 어떠한 구조로 만들어져 있는지 참고하기 위해서는 아래 경로로 들어가면 된다.
 
-`/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/File Templates/`
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/File Templates/
 
 (Finder를 통하여 찾고싶은 경우에는 패키지 내용보기로 접근할 수 있다.)
 
