@@ -85,6 +85,6 @@ error: failed to push some refs to 'https://github.com/dy-yb/json_Example.git'
 
 ![스크린샷_2022-02-11_14 47 45](https://user-images.githubusercontent.com/40792935/153543828-9f20f746-0693-43c9-a988-442d8a1a7479.png)
 
-### Refrence
+### Reference
 
 [깃허브에 push 하는 방법과 error : src refspec master does not match any 에러 해결 방법](https://junheejang.tistory.com/221)
