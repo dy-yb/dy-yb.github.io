@@ -89,7 +89,8 @@ categories: [ iOS ]
         [Firebase CLI reference | Firebase Documentation](https://firebase.google.com/docs/cli#install-cli-mac-linux)
         
     
-    ![Untitled](Xcode%20Cloud%20+%20Firebase%20Distribution%2043bc6d8c12684553a668b538d1cec2dd/Untitled.png)
+        ![Untitled](https://user-images.githubusercontent.com/40792935/226177209-0537dd56-2232-4edb-a55b-786fbd7869dc.png)
+
     
     - 다운받은 파일을 `.zip` 으로 압축하고, `ci_scripts` group에 추가
     - `ci_post_xcodebuild.sh`
@@ -122,4 +123,21 @@ categories: [ iOS ]
     - 참고 글
         
         [Using Xcode Cloud With Firebase](https://medium.com/1v1me-blog/using-xcode-cloud-with-firebase-3bc66e7094bb)
+        
+### Slack notify 연결
+
+기본적으로 빌드 성공 여부를 이메일로 받을 수 있지만, notify 설정을 통해 Slack으로도 받을 수 있다.
+
+Xcode Cloud Workflow 설정 페이지에서 하는 방법, App Store Connect 페이지에서 하는 방법이 있는데 이상하게 전자는 잘 되지 않아서 후자 방식으로 진행하였다.
+
+- App Store Connect > Xcode Cloud > 워크플로 관리 > Workflow 선택 > 사후작업 > Slack 편집
+    
+    <img width="1453" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-01-09_12 04 52" src="https://user-images.githubusercontent.com/40792935/226177265-d2ae4bfa-c5e9-425d-9b7b-738c42a1e269.png">
+    
+- Slack 주소 입력 및 계정 로그인 후 연결하려는 채널 선택 후 저장
+
+- 관련 Apple 공식문서
+    
+    [Apple Developer Documentation](https://developer.apple.com/documentation/xcode/connecting-xcode-cloud-to-slack)
+
         
