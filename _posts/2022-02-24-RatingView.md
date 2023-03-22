@@ -5,7 +5,7 @@ tags: swift study UIStackView UISlider
 categories: [ iOS ]
 ---
 
-UIStackView와 UISlider를 별점을 입력하는 뷰를 구현하였다.
+UIStackView와 UISlider를 이용하여 별점을 입력하는 뷰를 구현하였다.
 
 - 요구 사항 상세
     - 별점은 1 ~ 5점 까지 가능(0점은 불가능 하고, 0.5 단위는 없음)
