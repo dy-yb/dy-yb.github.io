@@ -7,7 +7,7 @@ categories: [ iOS ]
 
 오랜만에 크리스마스 맞이(?) 블로그 글을 작성해봅니다,,🎄
 
-프로젝트에서 VIPER 아키텍처를 채택하여 사용하고있는데, 화면 당 같은 구조의 코드를 가진 파일을 반복해서 생성해야 하는 수고가 있었다. Xcode의 파일 템플릿을 이용하면 이러한 반복작업을 줄일 수 있다고 하여 방법을 찾아 시도해 봤다!
+프로젝트에서 VIP 아키텍처를 채택하여 사용하고있는데, 화면 당 같은 구조의 코드를 가진 파일을 반복해서 생성해야 하는 수고가 있었다. Xcode의 파일 템플릿을 이용하면 이러한 반복작업을 줄일 수 있다고 하여 방법을 찾아 시도해 봤다!
 
 
 우선 한번쯤 사용해 봤을 Cocoa Touch Class 또한 template으로 만들어져 있는 것인데, 그 구조를 참고하여 수정하면 나만의 템플릿을 생성할 수 있다고 한다.
@@ -43,12 +43,8 @@ File Template 기본 구조는 다음과 같다.
     ~/Library/Developer/Xcode/Templates/AAAAA/BBBBB.xctemplate
     
     - 위 경로 처럼 `~/Library/Developer/Xcode/Templates/` 아래에 폴더를 생성하고, 해당 폴더 내에 .xctemplate을 생성하면된다.
-    - 이때 상위 폴더 이름(AAAAA)이 아래 사진처럼 파일 생성 인터페이스에서 헤더 부분으로 나타나게 됨!
+    - 이때 상위 폴더 이름(AAAAA)이 파일 생성 인터페이스에서 헤더 부분으로 나타나게 됨!
         - ~/Library/Developer/Xcode/Templates/Custom\ Templates/KnockKnock-VIPER.xctemplate
-        
-        ![Untitled](https://user-images.githubusercontent.com/40792935/209468301-3850248e-6370-46d0-adc0-2d8de2a70905.png)
-        
-        
 
 - .xctemplate 폴더를 만들었으면, 해당 폴더 안에 기존 파일 템플릿 파일들을 복사 붙여넣기 해준다.
   <img width="298" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-12-25_21 09 01" src="https://user-images.githubusercontent.com/40792935/209468287-15ac2f8b-f61f-4665-bd20-3a4f941da0ad.png">
@@ -132,8 +128,6 @@ extension ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_productName:identifier___V
 이렇게 ViewController 뿐만아니라 Interactor, Presenter, Worker, Router 등 프로젝트에서 기본적으로 사용하는 파일들에 대하여 템플릿을 생성하여, 필요한 파일들을 손쉽게 자동으로 생성할 수 있었다. 
 
 - 적용 화면
-
-<img width="417" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-12-25_21 21 41" src="https://user-images.githubusercontent.com/40792935/209468289-fdbde309-587c-46d5-8e74-cf067cabbf5c.png">
  
 <img width="731" alt="%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2022-12-25_21 24 21" src="https://user-images.githubusercontent.com/40792935/209468294-eaeafb2f-b8bb-41bc-9348-d58b1cd21858.png">
         
